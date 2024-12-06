@@ -1,0 +1,16 @@
+inicio:
+    numero x = 10;
+    numero y = 2.5;
+    escribe('La suma de x y y es');
+    numero resultado = x * (y ^ x);
+    escribe(resultado);
+
+    repite(3) {
+        escribe('Esto es un ciclo');
+    }
+    si(x > y) {
+        escribe('x es mayor que y');
+    }
+    sino {
+        escribe('y es mayor o igual que x');
+    }
